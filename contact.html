@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<!--[if IE 9]>         <html class="ie9 no-focus" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-focus" lang="en"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+
+        <title>Sevalo</title>
+        <style>
+            #map 
+            {
+                width: 100%;
+                height: 400px;
+            }
+        </style>
+
+        <meta name="description" content="OneUI - Admin Dashboard Template &amp; UI Framework created by pixelcave and published on Themeforest">
+        <meta name="author" content="pixelcave">
+        <meta name="robots" content="noindex, nofollow">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0">
+
+        <!-- Icons -->
+        <!-- The following icons can be replaced with your own, they are used by desktop and mobile browsers -->
+        <link rel="shortcut icon" href="assets/img/favicons/favicon.png">
+
+        <link rel="icon" type="image/png" href="assets/img/favicons/favicon-16x16.png" sizes="16x16">
+        <link rel="icon" type="image/png" href="assets/img/favicons/favicon-32x32.png" sizes="32x32">
+        <link rel="icon" type="image/png" href="assets/img/favicons/favicon-96x96.png" sizes="96x96">
+        <link rel="icon" type="image/png" href="assets/img/favicons/favicon-160x160.png" sizes="160x160">
+        <link rel="icon" type="image/png" href="assets/img/favicons/favicon-192x192.png" sizes="192x192">
+
+        <link rel="apple-touch-icon" sizes="57x57" href="assets/img/favicons/apple-touch-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="assets/img/favicons/apple-touch-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="assets/img/favicons/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="assets/img/favicons/apple-touch-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="assets/img/favicons/apple-touch-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="assets/img/favicons/apple-touch-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="assets/img/favicons/apple-touch-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="assets/img/favicons/apple-touch-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-touch-icon-180x180.png">
+        <!-- END Icons -->
+
+        <!-- Stylesheets -->
+        <!-- Web fonts -->
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400italic,600,700%7COpen+Sans:300,400,400italic,600,700">
+
+        <!-- Bootstrap and OneUI CSS framework -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" id="css-main" href="assets/css/oneui.css">
+
+        <!-- You can include a specific file from css/themes/ folder to alter the default color theme of the template. eg: -->
+        <!-- <link rel="stylesheet" id="css-theme" href="assets/css/themes/flat.min.css"> -->
+        <!-- END Stylesheets -->
+    </head>
+    <body>
+        <!-- Page Container -->
+        <!--
+            Available Classes:
+
+            'enable-cookies'             Remembers active color theme between pages (when set through color theme list)
+
+            'sidebar-l'                  Left Sidebar and right Side Overlay
+            'sidebar-r'                  Right Sidebar and left Side Overlay
+            'sidebar-mini'               Mini hoverable Sidebar (> 991px)
+            'sidebar-o'                  Visible Sidebar by default (> 991px)
+            'sidebar-o-xs'               Visible Sidebar by default (< 992px)
+
+            'side-overlay-hover'         Hoverable Side Overlay (> 991px)
+            'side-overlay-o'             Visible Side Overlay by default (> 991px)
+
+            'side-scroll'                Enables custom scrolling on Sidebar and Side Overlay instead of native scrolling (> 991px)
+
+            'header-navbar-fixed'        Enables fixed header
+        -->
+        <div id="page-container" class="sidebar-l side-scroll header-navbar-fixed">
+            
+
+            <!-- Header -->
+            <header id="header-navbar" style="background-color: #FCDF70">
+                <div class="content-mini content-mini-full content-boxed">
+                    <!-- Header Navigation Right -->
+                    <ul class="nav-header pull-right">
+                        <li>
+                            <h2 class="font-w700 push">+7 707 202 4001</h2> 
+                        </li>
+                    </ul>
+                    <!-- END Header Navigation Right -->
+
+                    <!-- Header Navigation Left -->
+                    <ul class="nav-header pull-left">
+                        <li class="header-content">
+                            <a class="h5" href="index.php">
+                                <img class="graficlogo" src="img/logo.png" alt="Logo"></a>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- END Header Navigation Left -->
+                </div>
+            </header>
+            <!-- END Header -->
+
+            <!-- Main Container -->
+            <main id="main-container">
+                <!-- Sub Header -->
+                <div class="bg-gray-lighter visible-xs">
+                    <div class="content-mini content-boxed">
+                        <button class="btn btn-block btn-default visible-xs push" data-toggle="collapse" data-target="#sub-header-nav">
+                            <i class="fa fa-navicon push-5-r"></i>Меню
+                        </button>
+                    </div>
+                </div>
+                <div class="bg-primary-lighter collapse navbar-collapse remove-padding" id="sub-header-nav">
+                    <div class="content-mini content-boxed">
+                        <ul class="nav nav-pills nav-sub-header push">
+            
+                            <li>
+                                <a href="/">
+                                    <i class="fa fa-flag push-5-r"></i>Компания
+                                </a>
+                            </li>
+                            <li>
+                                <a href="product.html">
+                                    <i class="fa fa-train push-5-r"></i>Продукция
+                                </a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                    <i class="fa fa-truck push-5-r"></i>Спецтехника Б/У <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="base_pages_maintenance.html">Хочу купить</a>
+                                    </li>
+                                    <li role="separator" class="divider"></li>
+                                    <li>
+                                        <a href="base_pages_maintenance.html">Хочу продать</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="service.html">
+                                    <i class="glyphicon glyphicon-cog push-5-r"></i>Сервис
+                                </a>
+                            </li>
+                            
+                            <li class="active">
+                                <a href="contact.html">
+                                    <i class="fa fa-user push-5-r"></i>Контакты
+                                </a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+                <!-- END Sub Header -->
+                
+                <div class="bg-primary-dark">
+                    <section class="content content-full content-boxed">
+                        <!-- Section Content -->
+                        <div class="push-100-t push-50 text-center">
+                            <h1 class="h2 text-white push-10 animated fadeInDown" data-toggle="appear" data-class="animated fadeInDown">Контакты</h1>
+                        </div>
+                        <!-- END Section Content -->
+                    </section>
+                </div>
+
+                
+
+                <!-- <div class="block">
+                       
+                        <div class="block-content text-center">
+                            <address>
+                                <strong>Адрес</strong><br>
+                                Бухтарминская, 4
+                                Турксибский район, Алматы, 050054<br>
+                                <br>
+                                <strong>Телефон</strong><br>
+                                +7 707 202 4001<br>
+                            </address>
+                            <address>
+                                <strong>Почта</strong><br>
+                                <a href="mailto:#">marat.sevalo@mail.ru</a>
+                            </address>
+                        </div>
+                </div> -->
+                <div class="bg-white">
+                    <section class="content content-boxed">
+                        <!-- Section Content -->
+                        <div class="row items-push push-50-t push-30">
+                            <div class="col-md-6 col-md-offset-3">
+                                <form class="form-horizontal" action="base_pages_contact.html" method="post">
+                                    <div class="form-group">
+                                        <div class="col-xs-6">
+                                            <div class="form-material form-material-primary">
+                                                <input class="form-control" type="text" id="contact-firstname" name="contact-firstname" placeholder="Enter your firstname..">
+                                                <label for="contact-firstname">Firstname</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-6">
+                                            <div class="form-material form-material-primary">
+                                                <input class="form-control" type="text" id="contact-lastname" name="contact-lastname" placeholder="Enter your lastname..">
+                                                <label for="contact-lastname">Lastname</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="col-xs-12">
+                                            <div class="form-material form-material-primary">
+                                                <input class="form-control" type="email" id="contact-email" name="contact-email" placeholder="Enter your email..">
+                                                <label for="contact-email">Email</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="col-xs-12">
+                                            <div class="form-material form-material-primary">
+                                                <select class="form-control" id="contact-subject" name="contact-subject" size="1">
+                                                    <option value="1">Support</option>
+                                                    <option value="2">Billing</option>
+                                                    <option value="3">Management</option>
+                                                    <option value="4">Feature Request</option>
+                                                </select>
+                                                <label for="contact-subject">Where?</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="col-xs-12">
+                                            <div class="form-material form-material-primary">
+                                                <textarea class="form-control" id="contact-msg" name="contact-msg" rows="7" placeholder="Enter your message.."></textarea>
+                                                <label for="contact-msg">Message</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="col-xs-12 col-sm-6 col-sm-offset-3">
+                                            <button class="btn btn-block btn-primary" type="submit"><i class="fa fa-send pull-left"></i> Send Message</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <!-- END Section Content -->
+                    </section>
+                </div>
+                
+                <!-- <div id="map"></div> -->
+
+            </main>
+                
+        </div>
+        <!-- END Page Container -->
+
+
+        <script>
+            function initMap()
+            {
+                var element = document.getElementById('map');
+                var options = {
+                    zoom: 5,
+                    center: {lat:43.25654, lng: 76.92848}
+                };
+
+                var myMap = new google.maps.Map(element, options);
+                
+                var marker = new google.maps.Marker({
+                    position: {lat:43.25654, lng: 76.92848},
+                    map: myMap
+                });
+
+                var InfoWindow = new google.maps.InfoWindow({
+                    content: '<strong>Бухтарминская, 4 Турксибский район, Алматы, 050054</strong>'
+                })
+
+                InfoWindow.open(myMap, marker);
+
+                marker.addListener('click', function(){
+                    InfoWindow.open(myMap, marker);
+                });
+            }
+        </script>
+
+        <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBFeWhq4p98i0KYCnHRqSXE-iqRiN-1-cQ&callback=initMap">
+        </script>
+
+        <!-- OneUI Core JS: jQuery, Bootstrap, slimScroll, scrollLock, Appear, CountTo, Placeholder, Cookie and App.js -->
+        <script src="assets/js/core/jquery.min.js"></script>
+        <script src="assets/js/core/bootstrap.min.js"></script>
+        <script src="assets/js/core/jquery.slimscroll.min.js"></script>
+        <script src="assets/js/core/jquery.scrollLock.min.js"></script>
+        <script src="assets/js/core/jquery.appear.min.js"></script>
+        <script src="assets/js/core/jquery.countTo.min.js"></script>
+        <script src="assets/js/core/jquery.placeholder.min.js"></script>
+        <script src="assets/js/core/js.cookie.min.js"></script>
+        <script src="assets/js/app.js"></script>
+
+        <!-- Page Plugins -->
+        <script src="assets/js/plugins/chartjs/Chart.min.js"></script>
+
+        <!-- Page JS Code -->
+        <script src="assets/js/pages/base_pages_dashboard_v2.js"></script>
+        <script>
+            jQuery(function () {
+                // Init page helpers (CountTo plugin)
+                App.initHelpers('appear-countTo');
+            });
+        </script>
+    </body>
+</html>
