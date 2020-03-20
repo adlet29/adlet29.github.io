@@ -154,18 +154,137 @@
                 </div>
                 <!-- END Sub Header -->
                 
-                <div class="bg-primary-dark">
+                <!-- <div class="bg-primary-dark">
                     <section class="content content-full content-boxed">
-                        <!-- Section Content -->
+                        
                         <div class="push-100-t push-50 text-center">
                             <h1 class="h2 text-white push-10 animated fadeInDown" data-toggle="appear" data-class="animated fadeInDown">Контакты</h1>
+
                         </div>
-                        <!-- END Section Content -->
+                       
                     </section>
+                </div> -->
+                <div class="block-content">
+                    <div class="row items-push">
+                        
+                            <!-- Contact -->
+                            <div class="block block-rounded">
+                                <div class="block-header">
+                                    <!-- <ul class="block-options">
+                                        <li>
+                                            <button type="button" >
+                                                <i class="si si-pencil"></i>
+                                            </button>
+                                        </li>
+                                    </ul> -->
+                                    <div class="block-title">Отдел продаж</div>
+                                </div>
+                                <div class="block-content block-content-full bg-primary text-center bg-primary-dark">
+                                    <img class="img-avatar img-avatar-thumb" src="assets/img/avatars/avatar10.jpg" alt="">
+                                    <div class="font-s13 push-10-t">Марат Сабитулы</div>
+                                </div>
+                                <div class="block-content">
+                                    <div class="text-center push">
+                                        <a class="text-default" href="javascript:void(0)">
+                                            <i class="fa fa-2x fa-fw fa-facebook-square"></i>
+                                        </a>
+                                        <a class="text-default" href="javascript:void(0)">
+                                                <i class="fa fa-2x fa-fw fa-instagram"></i>
+                                        </a>
+                                        <a class="text-success" href="javascript:void(0)">
+                                            <i class="fa fa-2x fa-fw fa-whatsapp"></i>
+                                        </a>
+                                        
+                                    </div>
+                                    <table class="table table-borderless table-striped font-s13">
+                                        <tbody>
+                                            <tr>
+                                                <td class="font-w600" style="width: 30%;">Адрес</td>
+                                                <td>Бухтарминская, 4 Турксибский район, Алматы, 050054</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="font-w600">Телефон</td>
+                                                <td>+7 707 202 4001</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="font-w600">Почта</td>
+                                                <td>marat.sevalo@mail.ru</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="bg-white">
+                            </div>
+                            <!-- END Contact -->
+                                <section class="content content-boxed">
+                                    <!-- Section Content -->
+                                    <div class="row items-push push-50-t push-30">
+                                        <div class="col-md-6 col-md-offset-3">
+                                            <form class="form-horizontal" action="base_pages_contact.html" method="post">
+                                                <div class="form-group">
+                                                    <div class="col-xs-6">
+                                                        <div class="form-material form-material-primary">
+                                                            <input class="form-control" type="text" id="contact-firstname" name="contact-firstname" placeholder="Введите ваше имя..">
+                                                            <label for="contact-firstname">Имя</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xs-6">
+                                                        <div class="form-material form-material-primary">
+                                                            <input class="form-control" type="text" id="contact-lastname" name="contact-lastname" placeholder="Введите вашу фамилию..">
+                                                            <label for="contact-lastname">Фамилия</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <div class="col-xs-12">
+                                                        <div class="form-material form-material-primary">
+                                                            <input class="form-control" type="email" id="contact-email" name="contact-email" placeholder="Введите вашу почту..">
+                                                            <label for="contact-email">Email</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <div class="col-xs-12">
+                                                        <div class="form-material form-material-primary">
+                                                            <select class="form-control" id="contact-subject" name="contact-subject" size="1">
+                                                                <option value="0">Выберите спецтехнику</option>
+                                                                <option value="1">1. Погрузчики SDLG</option>
+                                                                <option value="2">2. Экскаваторы SDLG</option>
+                                                                <option value="3">3. Автогрейдеры SDLG</option>
+                                                                <option value="4">4. Экскаваторы-погрузчики SDLG</option>
+                                                                <option value="5">5. Карьерные самосвалы SDLG</option>
+                                                                <option value="6">6. Катки SDLG</option>
+                                                                <option value="7">7. Автокраны ZOOMLION</option>
+                                                                <option value="8">8. Бульдозеры SDLG</option>
+                                                                <option value="9">Другое</option>
+                                                            </select>
+                                                            <label for="contact-subject">Спецтехника</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <div class="col-xs-12">
+                                                        <div class="form-material form-material-primary">
+                                                            <textarea class="form-control" id="contact-msg" name="contact-msg" rows="7" placeholder="Введите ваше сообщение.."></textarea>
+                                                            <label for="contact-msg">Сообщение</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <div class="col-xs-12 col-sm-6 col-sm-offset-3">
+                                                        <button class="btn btn-block btn-primary" type="submit"><i class="fa fa-send pull-left"></i>Отправить</button>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <!-- END Section Content -->
+                                </section>
+                            <!-- </div> -->
+
+                        </div>
+                    </div>
                 </div>
-
-                
-
                 <!-- <div class="block">
                        
                         <div class="block-content text-center">
@@ -183,71 +302,148 @@
                             </address>
                         </div>
                 </div> -->
-                <div class="bg-white">
-                    <section class="content content-boxed">
-                        <!-- Section Content -->
-                        <div class="row items-push push-50-t push-30">
-                            <div class="col-md-6 col-md-offset-3">
-                                <form class="form-horizontal" action="base_pages_contact.html" method="post">
-                                    <div class="form-group">
-                                        <div class="col-xs-6">
-                                            <div class="form-material form-material-primary">
-                                                <input class="form-control" type="text" id="contact-firstname" name="contact-firstname" placeholder="Enter your firstname..">
-                                                <label for="contact-firstname">Firstname</label>
-                                            </div>
-                                        </div>
-                                        <div class="col-xs-6">
-                                            <div class="form-material form-material-primary">
-                                                <input class="form-control" type="text" id="contact-lastname" name="contact-lastname" placeholder="Enter your lastname..">
-                                                <label for="contact-lastname">Lastname</label>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <div class="col-xs-12">
-                                            <div class="form-material form-material-primary">
-                                                <input class="form-control" type="email" id="contact-email" name="contact-email" placeholder="Enter your email..">
-                                                <label for="contact-email">Email</label>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <div class="col-xs-12">
-                                            <div class="form-material form-material-primary">
-                                                <select class="form-control" id="contact-subject" name="contact-subject" size="1">
-                                                    <option value="1">Support</option>
-                                                    <option value="2">Billing</option>
-                                                    <option value="3">Management</option>
-                                                    <option value="4">Feature Request</option>
-                                                </select>
-                                                <label for="contact-subject">Where?</label>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <div class="col-xs-12">
-                                            <div class="form-material form-material-primary">
-                                                <textarea class="form-control" id="contact-msg" name="contact-msg" rows="7" placeholder="Enter your message.."></textarea>
-                                                <label for="contact-msg">Message</label>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <div class="col-xs-12 col-sm-6 col-sm-offset-3">
-                                            <button class="btn btn-block btn-primary" type="submit"><i class="fa fa-send pull-left"></i> Send Message</button>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                        <!-- END Section Content -->
-                    </section>
-                </div>
                 
                 <!-- <div id="map"></div> -->
 
             </main>
+                        <!-- Footer -->
+                        <footer class="page-footer font-small stylish-color-dark pt-4">
+                                <br>
+                                <!-- <hr> -->
+                                <!-- Footer Links -->
+                                <div class="container text-center text-md-left">
+                            
+                                <!-- Grid row -->
+                                <div class="row">
+                                    <!-- Grid column -->
+                                    <div class="col-md-4 mx-auto">
+                                        
+                                                <!-- Content -->
+                                        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">TOO Sevalo</h5>
+                                        <p>Sevalo Engineering Machinery Kazakhstan Официальный представитель на территории Казахстана таких марок как SDLG и ZOOMLION</p>
+                                            
+                                    </div>
+                                    <!-- Grid column -->
+                            
+                                    <!-- <hr class="clearfix w-100 d-md-none"> -->
+                            
+                                    <!-- Grid column -->
+                                    <div class="col-md-2 mx-auto">
+                            
+                                    <!-- Links -->
+                                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+                            
+                                    <ul class="list-unstyled">
+                                        <li>
+                                        <a href="#!">Link 1</a>
+                                        </li>
+                                        <li>
+                                        <a href="#!">Link 2</a>
+                                        </li>
+                                        <li>
+                                        <a href="#!">Link 3</a>
+                                        </li>
+                                        <li>
+                                        <a href="#!">Link 4</a>
+                                        </li>
+                                    </ul>
+                            
+                                    </div>
+                                    <!-- Grid column -->
+                            
+                                    <!-- <hr class="clearfix w-100 d-md-none"> -->
+                            
+                                    <!-- Grid column -->
+                                    <div class="col-md-2 mx-auto">
+                            
+                                    <!-- Links -->
+                                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+                            
+                                    <ul class="list-unstyled">
+                                        <li>
+                                        <a href="#!">Link 1</a>
+                                        </li>
+                                        <li>
+                                        <a href="#!">Link 2</a>
+                                        </li>
+                                        <li>
+                                        <a href="#!">Link 3</a>
+                                        </li>
+                                        <li>
+                                        <a href="#!">Link 4</a>
+                                        </li>
+                                    </ul>
+                            
+                                    </div>
+                                    <!-- Grid column -->
+                            
+                                    <!-- <hr class="clearfix w-100 d-md-none"> -->
+                            
+                                    <!-- Grid column -->
+                                    <div class="col-md-2 mx-auto">
+                            
+                                    <!-- Links -->
+                                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+                            
+                                    <ul class="list-unstyled">
+                                        <li>
+                                        <a href="#!">Link 1</a>
+                                        </li>
+                                        <li>
+                                        <a href="#!">Link 2</a>
+                                        </li>
+                                        <li>
+                                        <a href="#!">Link 3</a>
+                                        </li>
+                                        <li>
+                                        <a href="#!">Link 4</a>
+                                        </li>
+                                    </ul>
+                            
+                                    </div>
+                                    <!-- Grid column -->
+                            
+                                </div>
+                                <!-- Grid row -->
+                            
+                                </div>
+                                <!-- Footer Links -->
+                                
+                                <!-- <hr id="line"> -->
+                                <br>
+                            
                 
+                            
+                                <!-- Social buttons -->
+                                <ul class="list-unstyled list-inline text-center">
+                                <li class="list-inline-item">
+                                    <a class="btn-floating btn-fb mx-1" href="https://www.facebook.com/sdlgkazakh/" target="_blank">
+                                    <i class="fa fa-2x fa-fw fa-facebook-square"> </i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item" href="">
+                                    <a class="btn-floating btn-tw mx-1">
+                                    <i class="fa fa-2x fa-fw fa-instagram"> </i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item" href="">
+                                        <a class="btn-floating btn-tw mx-1">
+                                        <i class="fa fa-2x fa-fw fa-whatsapp"> </i>
+                                        </a>
+                                </li>
+                                </ul>
+                                <!-- Social buttons -->
+                            
+                                <!-- Copyright -->
+                                <div class="footer-copyright text-center py-3">© 2020 Copyright:
+                                <a href="#"> marat.sevalo@mail.ru</a>
+                                <br>
+                                </div>
+                                <!-- Copyright -->
+                                <br>
+                                <br>
+                            </footer>
+                            <!-- Footer -->     
         </div>
         <!-- END Page Container -->
 
