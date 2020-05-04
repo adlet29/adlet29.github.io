@@ -1,3 +1,9 @@
+<?php
+
+
+
+?>
+
 <!DOCTYPE html>
 <!--[if IE 9]>         <html class="ie9 no-focus" lang="en"> <![endif]-->
 <!--[if gt IE 9]><!--> <html class="no-focus" lang="en"> <!--<![endif]-->
@@ -168,162 +174,37 @@
                 </div>
                 
                 <div class="content">
-                        <div class="block">
-                            <ul class="nav nav-tabs" data-toggle="tabs">
-                                <li class="bg-warning">
-                                    <a href="#search-p1">1. Погрузчики</a>
-                                </li>
-                                <li class="bg-warning">
-                                    <a href="#search-p2">2. Экскаваторы</a>
-                                </li>
-                                <li class="bg-warning">
-                                    <a href="#search-p3">3. Автогрейдеры</a>
-                                </li>
-                                <li class="bg-warning">
-                                    <a href="#search-p4">4. Экскаваторы-Погрузчики</a>
-                                </li>
-                                <li class="bg-warning">
-                                    <a href="#search-p5">5. Карьерные самосвалы</a>
-                                </li>
-                                <li class="bg-warning">
-                                    <a href="#search-p6">6. Катки</a>
-                                </li>
-                                <li class="bg-warning">
-                                    <a href="#search-p7">7. Автокраны</a>
-                                </li>
-                                <li class="bg-warning">
-                                    <a href="#search-p8">8. Бульдозеры</a>
-                                </li>
-                            </ul>
-                            <div class="block-content tab-content bg-white">
-                                <!-- 1. Погрузчики -->
-                                <div class="tab-pane fade fade-up in active" id="search-p1">
-                                        <!-- Main Container -->
-                                        
-                                            <!-- Page Content -->
-                                            <section class="content content-boxed">
-                                                    <!-- Section Content -->
-                                                    <div class="push-50-t push-50">
-                                                        <div class="row">
-                                                            <div class="col-lg-12">
-                                                                <!-- Story -->
-                                                                <div class="block">
-                                                                    <div class="block-content">
-                                                                        <div class="row items-push">
-                                                                            <div class="col-md-4">
-                                                                                <a href="base_pages_blog_story.html">
-                                                                                    <img class="img-responsive" src="https://cartrade-nsk.ru/upload/5773c4766c1aa_227714266696001.jpg" alt="">
-                                                                                </a>
-                                                                            </div>
-                                                                            <div class="col-md-8">
-                                                                                <div class="font-s12 push-10">
-                                                                                    <em class="pull-right">13.03.20</em>
-                                                                                    <!-- <a href="#">Ronald George</a> Март 16, 2020 -->
-                                                                                </div>
-                                                                                <h4 class="text-uppercase push-10"><a class="text-primary-dark" href="base_pages_blog_story.html">Модель спецтехники</a></h4>
-                                                                                
-                                                                                <p class="push-20">Описание: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ultrices, justo vel imperdiet gravida, urna ligula hendrerit nibh, ac cursus nibh..</p>
-                                                                                <div class="btn-group btn-group-sm">
-                                                                                    <a class="btn btn-default" href="javascript:void(0)"><i class="fa fa-share-alt push-5-r"></i> Поделиться</a>
-                                                                                    <a class="btn btn-default" href="#">Посмотреть объявление</a>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <!-- END Story -->
-                                                                <!-- Story -->
-                                                                <div class="block">
-                                                                        <div class="block-content">
-                                                                            <div class="row items-push">
-                                                                                <div class="col-md-4">
-                                                                                    <a href="base_pages_blog_story.html">
-                                                                                        <img class="img-responsive" src="https://cartrade-nsk.ru/upload/5773c4766c1aa_227714266696001.jpg" alt="">
-                                                                                    </a>
-                                                                                </div>
-                                                                                <div class="col-md-8">
-                                                                                    <div class="font-s12 push-10">
-                                                                                        <em class="pull-right">13.03.20</em>
-                                                                                        <!-- <a href="#">Ronald George</a> Март 16, 2020 -->
-                                                                                    </div>
-                                                                                    <h4 class="text-uppercase push-10"><a class="text-primary-dark" href="base_pages_blog_story.html">Модель спецтехники</a></h4>
-                                                                                    
-                                                                                    <p class="push-20">Описание: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ultrices, justo vel imperdiet gravida, urna ligula hendrerit nibh, ac cursus nibh..</p>
-                                                                                    <div class="btn-group btn-group-sm">
-                                                                                        <a class="btn btn-default" href="javascript:void(0)"><i class="fa fa-share-alt push-5-r"></i> Поделиться</a>
-                                                                                        <a class="btn btn-default" href="#">Посмотреть объявление</a>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                </div>
-                                                                <!-- END Story -->
-                                                                <!-- Story -->
-                                                                <div class="block">
-                                                                        <div class="block-content">
-                                                                            <div class="row items-push">
-                                                                                <div class="col-md-4">
-                                                                                    <a href="base_pages_blog_story.html">
-                                                                                        <img class="img-responsive" src="https://cartrade-nsk.ru/upload/5773c4766c1aa_227714266696001.jpg" alt="">
-                                                                                    </a>
-                                                                                </div>
-                                                                                <div class="col-md-8">
-                                                                                    <div class="font-s12 push-10">
-                                                                                        <em class="pull-right">13.03.20</em>
-                                                                                        <!-- <a href="#">Ronald George</a> Март 16, 2020 -->
-                                                                                    </div>
-                                                                                    <h4 class="text-uppercase push-10"><a class="text-primary-dark" href="base_pages_blog_story.html">Модель спецтехники</a></h4>
-                                                                                    
-                                                                                    <p class="push-20">Описание: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ultrices, justo vel imperdiet gravida, urna ligula hendrerit nibh, ac cursus nibh..</p>
-                                                                                    <div class="btn-group btn-group-sm">
-                                                                                        <a class="btn btn-default" href="javascript:void(0)"><i class="fa fa-share-alt push-5-r"></i> Поделиться</a>
-                                                                                        <a class="btn btn-default" href="#">Посмотреть объявление</a>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                </div>
-                                                                <!-- END Story -->
-                                                                
-                                                                <!-- Pagination -->
-                                                                <nav>
-                                                                    <ul class="pagination">
-                                                                        <li class="active">
-                                                                            <a href="javascript:void(0)">1</a>
-                                                                        </li>
-                                                                        <li>
-                                                                            <a href="javascript:void(0)">2</a>
-                                                                        </li>
-                                                                        <li>
-                                                                            <a href="javascript:void(0)">3</a>
-                                                                        </li>
-                                                                        <li>
-                                                                            <a href="javascript:void(0)">4</a>
-                                                                        </li>
-                                                                        <li>
-                                                                            <a href="javascript:void(0)">5</a>
-                                                                        </li>
-                                                                        <li>
-                                                                            <a href="javascript:void(0)"><i class="fa fa-angle-right"></i></a>
-                                                                        </li>
-                                                                    </ul>
-                                                                </nav>
-                                                                <!-- END Pagination -->
-                                                            </div>
-                                                            
-                                                        </div>
-                                                    </div>
-                                                    <!-- END Section Content -->
-                                                </section>
-                                            <!-- END Page Content -->
-                                  
-                                        <!-- END Main Container -->
+                    <div class="col-sm-8 col-sm-offset-2">
+                        <!-- Story -->
+                        <?php
+                        require 'backend/get.php';
+                        $result = li();
+                        rsort($result);
+                        foreach ($result as $res) {
+                        ?>
+                        <div class="push animated fadeIn" data-toggle="appear" data-offset="50" data-class="animated fadeIn">
+                            <a class="block block-link-hover2" href="#">
+                                <?php 
+                                $path = 'backend/uploads/'.$res['path'];
+                                ?>
+                                <img class="img-responsive hidden-xs" src="<?php echo $path; ?>" alt="">
+                                <div class="block-content">
+                                    <div class="font-s12 push">
+                                        <em class="pull-right"><?php echo $res['price']; ?> $</em>
+                                        <span class="text-primary">Sevalo on July 16, 2020
+                                    </div>
+                                    <h4 class="push-10"><?php echo $res['name']; ?></h4>
+                                    <p><?php echo $res['description'] ?></p>
                                 </div>
-                                <!-- END 1. Погрузчики -->
-                                
-                            </div>
+                            </a>
                         </div>
+                        <?php    
+                        } ?>
+                        <!-- END Story -->
+
+                        
                     </div>
+                </div>
 
                 
 
