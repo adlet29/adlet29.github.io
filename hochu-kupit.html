@@ -1,3 +1,9 @@
+<?php
+
+
+
+?>
+
 <!DOCTYPE html>
 <!--[if IE 9]>         <html class="ie9 no-focus" lang="en"> <![endif]-->
 <!--[if gt IE 9]><!--> <html class="no-focus" lang="en"> <!--<![endif]-->
@@ -5,13 +11,6 @@
         <meta charset="utf-8">
 
         <title>SDLG</title>
-        <style>
-            #map 
-            {
-                width: 100%;
-                height: 400px;
-            }
-        </style>
 
         <meta name="description" content="SDLG, Официальный представитель на территории Казахстана таких марок как SDLG и ZOOMLION">
         <meta name="author" content="pixelcave">
@@ -42,6 +41,10 @@
         <!-- Web fonts -->
         <link rel="stylesheet" href="css/style.css" type="text/css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400italic,600,700%7COpen+Sans:300,400,400italic,600,700">
+
+        <!-- Page JS Plugins CSS -->
+        <link rel="stylesheet" href="assets/js/plugins/slick/slick.min.css">
+        <link rel="stylesheet" href="assets/js/plugins/slick/slick-theme.min.css">
 
         <!-- Bootstrap and OneUI CSS framework -->
         <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -88,16 +91,16 @@
                     <!-- Header Navigation Left -->
                     <ul class="nav-header pull-left">
                         <li class="header-content">
-                            <!-- <a class="h5 text-primary-dark" href="index.html">
+                            <a class="h5 text-primary-dark" href="index.html">
                                 <i class="si si-globe"></i> 
                                 <span class="h4 font-w600 sidebar-mini-hide">SDLG</span>
+                            </a>
+                            <!-- <a href="index.html">
+                                <img src="img/pngocean.com.png" alt="Logo" weight="300" height="100"></a>
                             </a> -->
-                            <a href="index.html">
-                                <img src="img/logo2.png" alt="Logo" weight="300" height="50">
-                                <!-- <span class="text-primary-dark">  ОФИЦИАЛЬНЫЙ ДИЛЛЕР НА ТЕРРИТОРИИ КАЗАХСТАНА</span> -->
-                            </a> 
                         </li>
                     </ul>
+                    
                     <!-- END Header Navigation Left -->
                     <ul class="nav-header pull-right">
                         <li class="header-content">
@@ -113,11 +116,11 @@
                             <i class="fa fa-instagram fa-2x"> </i>
                             </a>
                         </li>
-                        <!-- <li  >
+                        <li  >
                                 <a class="text-success" href="https://api.whatsapp.com/send?phone=77072024001" target="_blank">
                                 <i class="fa fa-whatsapp fa-2x"> </i>
                                 </a>
-                        </li> -->
+                        </li>
                     </ul>
                 </div>
                 
@@ -143,17 +146,17 @@
                                     <i class="fa fa-flag push-5-r"></i>Компания
                                 </a>
                             </li>
-                            <li>
+                            <li  >
                                 <a href="product.html">
                                     <i class="fa fa-train push-5-r"></i>Продукция
                                 </a>
                             </li>
-                            <li class="dropdown">
+                            <li class="dropdown active">
                                 <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                                     <i class="fa fa-truck push-5-r"></i>Спецтехника Б/У <span class="caret"></span>
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li>
+                                    <li class="active">
                                         <a href="hochu-kupit.html">Хочу купить</a>
                                     </li>
                                     <li role="separator" class="divider"></li>
@@ -168,7 +171,7 @@
                                 </a>
                             </li>
                             
-                            <li class="active">
+                            <li>
                                 <a href="contact.html">
                                     <i class="fa fa-user push-5-r"></i>Контакты
                                 </a>
@@ -177,20 +180,38 @@
                         </ul>
                     </div>
                 </div>
-              
-                <div>
-                    <script id="bx24_form_inline" data-skip-moving="true">
-                        (function(w,d,u,b){w['Bitrix24FormObject']=b;w[b] = w[b] || function(){arguments[0].ref=u;
-                                (w[b].forms=w[b].forms||[]).push(arguments[0])};
-                                if(w[b]['forms']) return;
-                                var s=d.createElement('script');s.async=1;s.src=u+'?'+(1*new Date());
-                                var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
-                        })(window,document,'https://sevalo.bitrix24.kz/bitrix/js/crm/form_loader.js','b24form');
+                <!-- END Sub Header -->
                 
-                        b24form({"id":"2","lang":"ru","sec":"slb0sw","type":"inline"});
-                    </script>
-
+                <div class="bg-image" style="background-image: url('assets/img/photos/photo28@2x.jpg');">
+                    <div class="content content-full bg-primary-dark-op">
+                        <div class="row">
+                            <div class="col-xs-6">
+                                <h1 class="page-heading text-white">
+                                    Спецтехника Б/У <small class="hidden-xs"><span class="text-white-op"></span></small>
+                                </h1>
+                            </div>
+                            <!-- <a class="btn btn-rounded btn-noborder btn-lg btn-success animated fadeInUp" data-toggle="appear" data-class="animated fadeInUp" data-timeout="750" href="hochu-prodat.html" target="_blank">
+                                    <i class="fa fa-handshake-o push-5-r"></i> Хочу продать
+                                </a> -->
+                           
+                        </div>
+                    </div>
                 </div>
+                
+                 <!-- Maintenance Content -->
+        <div class="content bg-white text-center pulldown overflow-hidden">
+            <div class="row">
+                <div class="col-sm-6 col-sm-offset-3">
+                    <div class="font-s64 text-gray push-30-t push-50">
+                        <i class="fa fa-cog fa-spin"></i>
+                    </div>
+                    <h1 class="h2 font-w400 push-15 animated fadeInLeftBig">Извините, мы на ремонт.</h1>
+                    <h2 class="h3 font-w300 text-dark-op push-50 animated fadeInRightBig">Мы скоро вернемся!</h2>
+                </div>
+            </div>
+        </div>
+        <!-- END Maintenance Content -->
+
                 
 
             </main>
@@ -323,7 +344,7 @@
                 <!-- Social buttons -->
             
                 <!-- Copyright -->
-                <div class="footer-copyright text-center py-3">© 2020 Все права защищены.
+                <div class="footer-copyright text-center py-3">
                 <a> marat.sevalo@mail.ru</a>
                 <br>
                 </div>
@@ -334,39 +355,47 @@
             <!-- Footer -->     
         </div>
         <!-- END Page Container -->
-
-
-        <script>
-            function initMap()
-            {
-                var element = document.getElementById('map');
-                var options = {
-                    zoom: 5,
-                    center: {lat:43.25654, lng: 76.92848}
-                };
-
-                var myMap = new google.maps.Map(element, options);
-                
-                var marker = new google.maps.Marker({
-                    position: {lat:43.25654, lng: 76.92848},
-                    map: myMap
-                });
-
-                var InfoWindow = new google.maps.InfoWindow({
-                    content: '<strong>Бухтарминская, 4 Турксибский район, Алматы, 050054</strong>'
-                })
-
-                InfoWindow.open(myMap, marker);
-
-                marker.addListener('click', function(){
-                    InfoWindow.open(myMap, marker);
-                });
-            }
-        </script>
-
-        <script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBFeWhq4p98i0KYCnHRqSXE-iqRiN-1-cQ&callback=initMap">
-        </script>
+                <!-- Apps Modal -->
+        <!-- Opens from the button in the header -->
+        <div class="modal fade" id="apps-modal" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="modal-sm modal-dialog modal-dialog-top">
+                    <div class="modal-content">
+                        <!-- Apps Block -->
+                        <div class="block block-themed block-transparent">
+                            <div class="block-header bg-primary-dark">
+                                <ul class="block-options">
+                                    <li>
+                                        <button data-dismiss="modal" type="button"><i class="si si-close"></i></button>
+                                    </li>
+                                </ul>
+                                <h3 class="block-title">Apps</h3>
+                            </div>
+                            <div class="block-content">
+                                <div class="row text-center">
+                                    <div class="col-xs-6">
+                                        <a class="block block-rounded" href="base_pages_dashboard.html">
+                                            <div class="block-content text-white bg-default">
+                                                <i class="si si-speedometer fa-2x"></i>
+                                                <div class="font-w600 push-15-t push-15">Backend</div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-xs-6">
+                                        <a class="block block-rounded" href="bd_dashboard.html">
+                                            <div class="block-content text-white bg-modern">
+                                                <i class="si si-rocket fa-2x"></i>
+                                                <div class="font-w600 push-15-t push-15">Boxed</div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- END Apps Block -->
+                    </div>
+                </div>
+            </div>
+            <!-- END Apps Modal -->
 
         <!-- OneUI Core JS: jQuery, Bootstrap, slimScroll, scrollLock, Appear, CountTo, Placeholder, Cookie and App.js -->
         <script src="assets/js/core/jquery.min.js"></script>
@@ -380,15 +409,15 @@
         <script src="assets/js/app.js"></script>
 
         <!-- Page Plugins -->
-        <script src="assets/js/plugins/chartjs/Chart.min.js"></script>
+        <script src="assets/js/plugins/slick/slick.min.js"></script>
 
         <!-- Page JS Code -->
-        <script src="assets/js/pages/base_pages_dashboard_v2.js"></script>
         <script>
             jQuery(function () {
-                // Init page helpers (CountTo plugin)
-                App.initHelpers('appear-countTo');
+                // Init page helpers (Slick Slider plugin)
+                App.initHelpers('slick');
             });
         </script>
     </body>
 </html>
+
