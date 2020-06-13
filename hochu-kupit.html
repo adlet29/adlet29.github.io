@@ -1,3 +1,9 @@
+<?php
+
+
+
+?>
+
 <!DOCTYPE html>
 <!--[if IE 9]>         <html class="ie9 no-focus" lang="en"> <![endif]-->
 <!--[if gt IE 9]><!--> <html class="no-focus" lang="en"> <!--<![endif]-->
@@ -35,6 +41,10 @@
         <!-- Web fonts -->
         <link rel="stylesheet" href="css/style.css" type="text/css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400italic,600,700%7COpen+Sans:300,400,400italic,600,700">
+
+        <!-- Page JS Plugins CSS -->
+        <link rel="stylesheet" href="assets/js/plugins/slick/slick.min.css">
+        <link rel="stylesheet" href="assets/js/plugins/slick/slick-theme.min.css">
 
         <!-- Bootstrap and OneUI CSS framework -->
         <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -81,16 +91,16 @@
                     <!-- Header Navigation Left -->
                     <ul class="nav-header pull-left">
                         <li class="header-content">
-                            <!-- <a class="h5 text-primary-dark" href="index.html">
+                            <a class="h5 text-primary-dark" href="index.html">
                                 <i class="si si-globe"></i> 
                                 <span class="h4 font-w600 sidebar-mini-hide">SDLG</span>
+                            </a>
+                            <!-- <a href="index.html">
+                                <img src="img/pngocean.com.png" alt="Logo" weight="300" height="100"></a>
                             </a> -->
-                            <a href="index.html">
-                                <img src="img/logo2.png" alt="Logo" weight="300" height="50">
-                                <!-- <span class="text-primary-dark">  ОФИЦИАЛЬНЫЙ ДИЛЛЕР НА ТЕРРИТОРИИ КАЗАХСТАНА</span> -->
-                            </a> 
                         </li>
                     </ul>
+                    
                     <!-- END Header Navigation Left -->
                     <ul class="nav-header pull-right">
                         <li class="header-content">
@@ -106,11 +116,11 @@
                             <i class="fa fa-instagram fa-2x"> </i>
                             </a>
                         </li>
-                        <!-- <li  >
+                        <li  >
                                 <a class="text-success" href="https://api.whatsapp.com/send?phone=77072024001" target="_blank">
                                 <i class="fa fa-whatsapp fa-2x"> </i>
                                 </a>
-                        </li> -->
+                        </li>
                     </ul>
                 </div>
                 
@@ -136,17 +146,17 @@
                                     <i class="fa fa-flag push-5-r"></i>Компания
                                 </a>
                             </li>
-                            <li  class="active">
+                            <li  >
                                 <a href="product.html">
                                     <i class="fa fa-train push-5-r"></i>Продукция
                                 </a>
                             </li>
-                            <li class="dropdown">
+                            <li class="dropdown active">
                                 <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                                     <i class="fa fa-truck push-5-r"></i>Спецтехника Б/У <span class="caret"></span>
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li>
+                                    <li class="active">
                                         <a href="hochu-kupit.html">Хочу купить</a>
                                     </li>
                                     <li role="separator" class="divider"></li>
@@ -172,138 +182,37 @@
                 </div>
                 <!-- END Sub Header -->
                 
-                <div class="bg-image" style="background-image: url('img/004.png');">
-                    <div class="bg-primary-dark-op">
-                        <section class="content content-full content-boxed overflow-hidden">
-                            <!-- Section Content -->
-                            <div class="push-100-t push-50 text-center">
-                                <h1 class="h2 text-info push-10 animated fadeInDown" data-toggle="appear" data-class="animated fadeInDown">Каталог спецтехники</h1>
-                                <h1 class="h3 text-info animated fadeInDown" data-toggle="appear" data-class="animated fadeInDown">Техника SDLG производится с применением высокотехнологичных методов сборки на оборудовании Volvo</h1>
+                <div class="bg-image" style="background-image: url('assets/img/photos/photo28@2x.jpg');">
+                    <div class="content content-full bg-primary-dark-op">
+                        <div class="row">
+                            <div class="col-xs-6">
+                                <h1 class="page-heading text-white">
+                                    Спецтехника Б/У <small class="hidden-xs"><span class="text-white-op"></span></small>
+                                </h1>
                             </div>
-                            <!-- END Section Content -->
-                        </section>
+                            <!-- <a class="btn btn-rounded btn-noborder btn-lg btn-success animated fadeInUp" data-toggle="appear" data-class="animated fadeInUp" data-timeout="750" href="hochu-prodat.html" target="_blank">
+                                    <i class="fa fa-handshake-o push-5-r"></i> Хочу продать
+                                </a> -->
+                           
+                        </div>
                     </div>
                 </div>
-
-                <section class="content content-boxed">
-                    <!-- Section Content -->
-                    <div class="push-50-t push-50">
-                        <div class="row">
-                            <!-- Story -->
-                            <div class="col-md-4 animated fadeIn" data-toggle="appear" data-offset="50" data-class="animated fadeIn">
-                                <a class="block block-link-hover2" href="loaders.html">
-                                    <img class="img-responsive" src="img/sdlg1.jpg" alt="">
-                                    <div class="block-content">
-                                        <h4 class="push-10">Погрузчики SDLG</h4>
-                                    </div>
-                                </a>
-                            </div>
-                            <!-- END Story -->
-
-                            <!-- Story -->
-                            <div class="col-md-4 animated fadeIn" data-toggle="appear" data-offset="50" data-class="animated fadeIn">
-                                <a class="block block-link-hover2" href="excavator.html">
-                                    <img class="img-responsive" src="img/sdlg2.jpg" alt="">
-                                    <div class="block-content">
-                                        <h4 class="push-10">Экскаваторы SDLG</h4>
-                                        <p></p>
-                                    </div>
-                                </a>
-                            </div>
-                            <!-- END Story -->
-
-                            <!-- Story -->
-                            <div class="col-md-4 animated fadeIn" data-toggle="appear" data-offset="50" data-class="animated fadeIn">
-                                <a class="block block-link-hover2" href="autograder.html">
-                                    <img class="img-responsive" src="img/sdlg3.jpg" alt="">
-                                    <div class="block-content">
-                                        
-                                        <h4 class="push-10">Автогрейдеры SDLG</h4>
-                                        
-                                    </div>
-                                </a>
-                            </div>
-                            <!-- END Story -->
-                        </div>
-                        <div class="row">
-                            <!-- Story -->
-                            <div class="col-md-4 animated fadeIn" data-toggle="appear" data-offset="50" data-class="animated fadeIn">
-                                <a class="block block-link-hover2" href="backhoe-loader.html">
-                                    <img class="img-responsive" src="img/sdlg4.jpg" alt="">
-                                    <div class="block-content">
-                                        <br>
-                                        <h4 class="push-10">Экскаваторы-погрузчики SDLG</h4>
-                                    </div>
-                                </a>
-                            </div>
-                            <!-- END Story -->
-
-                            <!-- Story -->
-                            <div class="col-md-4 animated fadeIn" data-toggle="appear" data-offset="50" data-class="animated fadeIn">
-                                <a class="block block-link-hover2" href="dumptruck.html">
-                                    <img class="img-responsive" src="img/sdlg5.jpg" alt="">
-                                    <div class="block-content">
-                                        <h4 class="push-10">Карьерные самосвалы SDLG</h4>
-                                    </div>
-                                </a>
-                            </div>
-                            <!-- END Story -->
-
-                            <!-- Story -->
-                            <div class="col-md-4 animated fadeIn" data-toggle="appear" data-offset="50" data-class="animated fadeIn">
-                                <a class="block block-link-hover2" href="roller.html">
-                                    <img class="img-responsive" src="img/sdlg6.jpg" alt="">
-                                    <div class="block-content">
-                                        <br>
-                                        <br>
-                                        
-                                        <h4 class="push-10">Катки SDLG</h4>
-                                    </div>
-                                </a>
-                            </div>
-                            <!-- END Story -->
-                        </div>
-                        <div class="row">
-                            <!-- Story -->
-                            <div class="col-md-4 animated fadeIn" data-toggle="appear" data-offset="50" data-class="animated fadeIn">
-                                <a class="block block-link-hover2" href="truckcrane.html">
-                                    <img class="img-responsive" src="img/sdlg7.jpg" alt="">
-                                    <div class="block-content">
-                                        <h4 class="push-10">Автокраны ZOOMLION</h4>
-                                    </div>
-                                </a>
-                            </div>
-                            <!-- END Story -->
-
-                            <!-- Story -->
-                            <div class="col-md-4 animated fadeIn" data-toggle="appear" data-offset="50" data-class="animated fadeIn">
-                                <a class="block block-link-hover2" href="bulldozer.html">
-                                    <img class="img-responsive" src="img/sdlg81.png" alt="">
-                                    <div class="block-content">
-                                        <br>
-                                        <h4 class="push-10">Бульдозеры ZOOMLION</h4>
-                                    </div>
-                                </a>
-                            </div>
-                            <!-- END Story -->
-
-                            <!-- Story -->
-                            <div class="col-md-4 animated fadeIn" data-toggle="appear" data-offset="50" data-class="animated fadeIn">
-                                <a class="block block-link-hover2" href="hydraulic-hammers.html">
-                                    <img class="img-responsive" src="img/sdlg9.jpg" alt="">
-                                    <div class="block-content">
-                                        <br>
-                                        <h4 class="push-10">Гидромолоты</h4>
-                                    </div>
-                                </a>
-                            </div>
-                            <!-- END Story -->
-                        </div>
-
-                       
+                
+                 <!-- Maintenance Content -->
+        <div class="content bg-white text-center pulldown overflow-hidden">
+            <div class="row">
+                <div class="col-sm-6 col-sm-offset-3">
+                    <div class="font-s64 text-gray push-30-t push-50">
+                        <i class="fa fa-cog fa-spin"></i>
                     </div>
-                    <!-- END Section Content -->
-                </section>
+                    <h1 class="h2 font-w400 push-15 animated fadeInLeftBig">Извините, мы на ремонт.</h1>
+                    <h2 class="h3 font-w300 text-dark-op push-50 animated fadeInRightBig">Мы скоро вернемся!</h2>
+                </div>
+            </div>
+        </div>
+        <!-- END Maintenance Content -->
+
+                
 
             </main>
             <!-- Footer -->
@@ -320,6 +229,7 @@
                         
                                 <!-- Content -->
                         <h5 class="font-weight-bold text-uppercase mt-3 mb-4"></h5>
+                        <br>
                         <p>Официальный представитель на территории Казахстана таких марок как SDLG и ZOOMLION</p>
                             
                     </div>
@@ -442,9 +352,50 @@
                 <br>
                 <br>
             </footer>
-            <!-- Footer -->      
+            <!-- Footer -->     
         </div>
         <!-- END Page Container -->
+                <!-- Apps Modal -->
+        <!-- Opens from the button in the header -->
+        <div class="modal fade" id="apps-modal" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="modal-sm modal-dialog modal-dialog-top">
+                    <div class="modal-content">
+                        <!-- Apps Block -->
+                        <div class="block block-themed block-transparent">
+                            <div class="block-header bg-primary-dark">
+                                <ul class="block-options">
+                                    <li>
+                                        <button data-dismiss="modal" type="button"><i class="si si-close"></i></button>
+                                    </li>
+                                </ul>
+                                <h3 class="block-title">Apps</h3>
+                            </div>
+                            <div class="block-content">
+                                <div class="row text-center">
+                                    <div class="col-xs-6">
+                                        <a class="block block-rounded" href="base_pages_dashboard.html">
+                                            <div class="block-content text-white bg-default">
+                                                <i class="si si-speedometer fa-2x"></i>
+                                                <div class="font-w600 push-15-t push-15">Backend</div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-xs-6">
+                                        <a class="block block-rounded" href="bd_dashboard.html">
+                                            <div class="block-content text-white bg-modern">
+                                                <i class="si si-rocket fa-2x"></i>
+                                                <div class="font-w600 push-15-t push-15">Boxed</div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- END Apps Block -->
+                    </div>
+                </div>
+            </div>
+            <!-- END Apps Modal -->
 
         <!-- OneUI Core JS: jQuery, Bootstrap, slimScroll, scrollLock, Appear, CountTo, Placeholder, Cookie and App.js -->
         <script src="assets/js/core/jquery.min.js"></script>
@@ -458,16 +409,15 @@
         <script src="assets/js/app.js"></script>
 
         <!-- Page Plugins -->
-        <script src="assets/js/plugins/chartjs/Chart.min.js"></script>
+        <script src="assets/js/plugins/slick/slick.min.js"></script>
 
         <!-- Page JS Code -->
-        <script src="assets/js/pages/base_pages_dashboard_v2.js"></script>
         <script>
             jQuery(function () {
-                // Init page helpers (CountTo plugin)
-                App.initHelpers('appear-countTo');
+                // Init page helpers (Slick Slider plugin)
+                App.initHelpers('slick');
             });
         </script>
-        
     </body>
 </html>
+

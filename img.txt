@@ -1,0 +1,83 @@
+1. Фронтальный погрузчики  SDLG 
+L975F
+img/loaders/L975F-1.jpg
+L956FH
+img/loaders/L956FH-1.jpg
+img/loaders/L956FH-2.jpg
+img/loaders/L956FH-3.jpg
+L956F
+img/loaders/L956F-1.jpg
+img/loaders/L956F-2.jpg
+img/loaders/L956F-3.jpg
+LG953
+img/loaders/LG953-1.jpg
+img/loaders/LG953-2.jpg
+img/loaders/LG953-3.jpg
+LG933L
+img/loaders/LG933L-1.jpg
+img/loaders/LG933L-2.jpg
+img/loaders/LG933L-3.jpg
+-----------------------------
+2. Экскаватор
+E6210F
+img/excavator/E6210F-1.jpg
+img/excavator/E6210F-2.jpg
+img/excavator/E6210F-3.jpg
+E6300F
+img/excavator/E6300F-1.jpg
+img/excavator/E6300F-2.jpg
+img/excavator/E6300F-3.jpg
+Е6360F
+img/excavator/Е6360F-1.jpg
+img/excavator/Е6360F-2.jpg
+img/excavator/Е6360F-3.jpg
+E6500F
+img/excavator/E6500F-1.jpg
+img/excavator/E6500F-2.jpg
+img/excavator/E6500F-3.jpg
+-----------------------------
+3. Автогрейдеры
+G9190
+img/autograder/G9190-1.jpg
+img/autograder/G9190-2.jpg
+img/autograder/G9190-3.jpg
+G9220
+img/autograder/G9220-1.jpg
+img/autograder/G9220-2.jpg
+img/autograder/G9220-3.jpg
+----------------------------
+4. Экскаватор-Погрузчики
+LGB877
+img/backloader/LGB877-1.jpg
+img/backloader/LGB877-2.jpg
+img/backloader/LGB877-3.jpg
+LGB877F
+img/backloader/LGB877F-1.jpg
+img/backloader/LGB877F-2.jpg
+img/backloader/LGB877F-3.jpg
+----------------------------
+5. Карьерные самосвалы
+MT86Н
+img/dumptruck/MT86Н-1.jpg
+img/dumptruck/MT86Н-2.jpg
+img/dumptruck/MT86Н-3.jpg
+----------------------------
+6. Катки
+RS8180
+img/roller/RS8180-1.jpg
+img/roller/RS8180-2.jpg
+-----------------------------
+7. Бульдозеры
+ZD160
+img/bulldozer/ZD160-1.jpg
+img/bulldozer/ZD160-2.jpg
+img/bulldozer/ZD160-3.jpg
+ZD220
+img/bulldozer/ZD220-1.jpg
+img/bulldozer/ZD220-2.jpg
+img/bulldozer/ZD220-3.jpg
+ZD320
+img/bulldozer/ZD320-1.jpg
+img/bulldozer/ZD320-2.jpg
+img/bulldozer/ZD320-3.jpg
+ 
