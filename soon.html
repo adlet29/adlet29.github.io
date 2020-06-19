@@ -36,6 +36,9 @@
         <!-- Web fonts -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400italic,600,700%7COpen+Sans:300,400,400italic,600,700">
 
+        <!-- Page JS Plugins CSS -->
+        <link rel="stylesheet" href="assets/js/plugins/fullcalendar/fullcalendar.min.css">
+
         <!-- Bootstrap and OneUI CSS framework -->
         <link rel="stylesheet" href="assets/css/bootstrap.min.css">
         <link rel="stylesheet" id="css-main" href="assets/css/oneui.css">
@@ -44,34 +47,63 @@
         <!-- <link rel="stylesheet" id="css-theme" href="assets/css/themes/flat.min.css"> -->
         <!-- END Stylesheets -->
     </head>
-    <body class="bg-image" style="background-image: url('assets/img/photos/photo6@2x.jpg');">
-        <!-- Coming Soon Content -->
-        <div class="content pulldown bg-black-op overflow-hidden animated fadeIn">
-            <div class="row text-center push">
-                <div class="col-sm-8 col-sm-offset-2 col-lg-6 col-lg-offset-3">
-                    <!-- Title -->
-                    <h1 class="text-white push-5">OneUI</h1>
-                    <h2 class="h5 text-white-op push-30">Stay tuned! We are working on it and it is coming soon!</h2>
-                    <div class="block-content">
-                        <h4 align="justify" class="push text-white">Гаухар, жакында откен туган кунынмен!  постта жазган заметкаларын катты унады, жоспарларын бары ойдагыдай болсын Инш))) Иа бызде омиримизде кандай озгеристер болып жатыр барине озимиз жауаптымыз, сондыктан сен калай кабылдайсын мен билмеймин, мен сени кездесуге шакырайын деп едим, шакырамын, буйыртса келеси Сенбиге  27-сы куны кундиз Rumi немесе Coffee Angel-in - да, бирден келесы кундерге шакырган бир турли болар деп ойладым, асыга кутем, келсен Куанам <del>куам дее))</del> бул страницаны жай адеми болсын деп жасадым, туган куннмен куттыктап)))</h4>
-                        <!-- <div class="nice-copy">
-                            <p align="justify" class="text-white">Potenti elit lectus augue eget iaculis vitae etiam, ullamcorper etiam bibendum ad feugiat magna accumsan dolor, nibh molestie cras hac ac ad massa, fusce ante convallis ante urna molestie vulputate bibendum tempus ante justo arcu erat accumsan adipiscing risus, libero condimentum venenatis sit nisl nisi ultricies sed, fames aliquet consectetur consequat nostra molestie neque nullam scelerisque neque commodo turpis quisque etiam egestas vulputate massa, curabitur tellus massa venenatis congue dolor enim integer luctus, nisi suscipit gravida fames quis vulputate nisi viverra luctus id leo dictum lorem, inceptos nibh orci.</p>
-                        </div> -->
+    <body >
+        <!-- Main Container -->
+        <main id="main-container">
+            <!-- Page Header -->
+            <!-- <div class="content bg-gray-lighter">
+                <div class="row items-push">
+                    <div class="col-sm-8">
+                        <h1 class="page-heading">
+                            Calendar <small>A solid foundation to build your calendar based web application. Powered by Full Calendar.</small>
+                        </h1>
                     </div>
-                    <!-- END Title -->
-
-                    <!-- Countdown -->
-                    <div class="push-50">
-                        <!-- Countdown.js (class is initialized in js/pages/base_pages_coming_soon.js), for more examples you can check out https://github.com/hilios/jQuery.countdown -->
-                        <div class="js-countdown"></div>
+                    <div class="col-sm-4 text-right hidden-xs">
+                        <ol class="breadcrumb push-10-t">
+                            <li>Components</li>
+                            <li><a class="link-effect" href="">Calendar</a></li>
+                        </ol>
                     </div>
-                    <!-- END Countdown -->
-
-                    
                 </div>
+            </div> -->
+            <!-- END Page Header -->
+
+            <!-- Page Content -->
+            <div class="bg-image" style="background-image: url('assets/img/photos/photo24@2x.jpg');">
+                <!-- Calendar and Events functionality (initialized in js/pages/base_comp_calendar.js), for more info and examples you can check out http://fullcalendar.io/ -->
+                <div class="row items-push">
+                    <div class="col-md-4 col-md-push-8 col-lg-2 col-lg-push-10">
+                        <!-- Add Event Form -->
+                        <!-- <form class="js-form-add-event push-30" action="base_comp_calendar.html" method="post">
+                            <div class="input-group">
+                                <input class="js-add-event form-control" type="text" placeholder="Add event..">
+                                <div class="input-group-btn">
+                                    <button class="btn btn-default" type="submit"><i class="fa fa-plus"></i></button>
+                                </div>
+                            </div>
+                        </form> -->
+                        <!-- END Add Event Form -->
+
+                        <!-- Event List -->
+                        <ul class="js-events list list-events">
+                            <li style="background-color: #fac5a5;">day 27, senbi</li>
+                            
+                        </ul>
+                        <div class="text-center text-amethyst-light">
+                            <small><em><i class="fa fa-arrows"></i> Drag and drop events on the calendar</em></small>
+                        </div>
+                        <!-- END Event List -->
+                    </div>
+                    <div class="col-md-8 col-md-pull-4 col-lg-10 col-lg-pull-2">
+                        <!-- Calendar Container -->
+                        <div class="js-calendar text-info"></div>
+                    </div>
+                </div>
+                <!-- END Calendar -->
             </div>
-        </div>
-        <!-- END Coming Soon Content -->
+            <!-- END Page Content -->
+        </main>
+        <!-- END Main Container -->
 
         <!-- OneUI Core JS: jQuery, Bootstrap, slimScroll, scrollLock, Appear, CountTo, Placeholder, Cookie and App.js -->
         <script src="assets/js/core/jquery.min.js"></script>
@@ -84,10 +116,13 @@
         <script src="assets/js/core/js.cookie.min.js"></script>
         <script src="assets/js/app.js"></script>
 
-        <!-- Page JS Plugins -->
-        <script src="assets/js/plugins/jquery-countdown/jquery.countdown.min.js"></script>
+        <!-- Page Plugins -->
+        <script src="assets/js/plugins/jquery-ui/jquery-ui.min.js"></script>
+        <script src="assets/js/plugins/fullcalendar/moment.min.js"></script>
+        <script src="assets/js/plugins/fullcalendar/fullcalendar.min.js"></script>
+        <script src="assets/js/plugins/fullcalendar/gcal.min.js"></script>
 
         <!-- Page JS Code -->
-        <script src="assets/js/pages/base_pages_coming_soon.js"></script>
+        <script src="assets/js/pages/base_comp_calendar1.js"></script>
     </body>
 </html>
