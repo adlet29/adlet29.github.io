@@ -75,8 +75,8 @@
             
 
             <!-- Header -->
-            <header id="header-navbar" style="background-color: #FCDF70">
-                <div class="content-mini content-mini-full content-boxed ">
+            <header id="header-navbar" class="content-mini content-mini-full" style="background-color: #FCDF70">
+                <!-- <div class="content-mini content-mini-full content-boxed "> -->
                     <!-- Header Navigation Right -->
                     <!-- <ul class="nav-header pull-right">
                         <li>
@@ -85,7 +85,20 @@
                     </ul> -->
                     <!-- END Header Navigation Right -->
 
-                    <!-- Header Navigation Left -->
+                    
+                    
+                <!-- </div> -->
+                <!-- <hr> -->
+                <div id="menu" class="visible-xs">
+                    <div class="content-mini content-boxed">
+                        <button class="btn btn-block btn-default visible-xs push" data-toggle="collapse" data-target="#sub-header-nav">
+                            <i class="fa fa-navicon push-5-r"></i>Меню
+                        </button>
+                    </div>
+                </div>
+                <div class="collapse navbar-collapse remove-padding" id="sub-header-nav">
+                    <div class="">
+                        <!-- Header Navigation Left -->
                     <ul class="nav-header pull-left">
                         <li class="header-content">
                             <!-- <a class="h5 text-primary-dark" href="index.html">
@@ -93,90 +106,158 @@
                                 <span class="h4 font-w600 sidebar-mini-hide">SDLG</span>
                             </a> -->
                             <a href="index.html">
-                                <img src="img/logo2.png" alt="Logo" weight="300" height="50">
-                                <!-- <span class="text-primary-dark">  ОФИЦИАЛЬНЫЙ ДИЛЛЕР НА ТЕРРИТОРИИ КАЗАХСТАНА</span> -->
+                                <img src="img/logo.svg" alt="Logo" height="42">
+                                <span class="text-primary-dark"> | Kazakhstan</span>
                             </a> 
+                             
                         </li>
                     </ul>
                     <!-- END Header Navigation Left -->
-                    <ul class="nav-header pull-right">
-                        <li class="header-content">
-                            <span class="h4 font-w600 sidebar-mini-hide text-primary-dark">8 (707) 202 4001</span>
-                        </li>
-                        <li >
-                            <a class="btn-floating btn-fb mx-1" href="https://www.facebook.com/sdlgkazakh/" target="_blank">
-                            <i class="fa fa-facebook-square fa-2x"> </i>
-                            </a>
-                        </li>
-                        <li  >
-                            <a class="text-danger" href="https://www.instagram.com/Sdlg.officialkz/" target="_blank">
-                            <i class="fa fa-instagram fa-2x"> </i>
-                            </a>
-                        </li>
-                        <!-- <li  >
-                                <a class="text-success" href="https://api.whatsapp.com/send?phone=77072024001" target="_blank">
-                                <i class="fa fa-whatsapp fa-2x"> </i>
-                                </a>
-                        </li> -->
-                    </ul>
+                        <ul class="nav nav-pills nav-sub-header push">
+                        
+                            <li>
+                                    <a href="/">
+                                        <i></i>О компании
+                                    </a>
+                                </li>
+                                <li class="dropdown" >
+                                    <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                        <i class=""></i>Каталог <span class="caret"></span>
+                                    </a>
+                                    <ul class="dropdown-menu" style="background-color: #FCDF70">
+                                        <li >
+                                            <a href="product.html">вся продукция</a>
+                                        </li>
+                                        <!-- <li role="separator" class="divider" style="background-color: rgb(3, 3, 3)"></li> -->
+                                        <li>
+                                            <a href="loaders.html">погрузчики</a>
+                                        </li>
+                                        <!-- <li role="separator" class="divider" style="background-color: rgb(3, 3, 3)"></li> -->
+                                        <li>
+                                            <a href="excavator.html">экскаваторы</a>
+                                        </li>
+                                        <!-- <li role="separator" class="divider" style="background-color: rgb(3, 3, 3)"></li> -->
+                                        <li>
+                                            <a href="autograder.html">автогрейдеры</a>
+                                        </li>
+                                        <!-- <li role="separator" class="divider" style="background-color: rgb(3, 3, 3)"></li> -->
+                                        <li>
+                                            <a href="backhoe-loader.html">экскаваторы-погрузчики</a>
+                                        </li>
+                                        <!-- <li role="separator" class="divider" style="background-color: rgb(3, 3, 3)"></li> -->
+                                        <li>
+                                            <a href="dumptruck.html">карьерные самосвалы</a>
+                                        </li>
+                                        <!-- <li role="separator" class="divider" style="background-color: rgb(3, 3, 3)"></li> -->
+                                        <li>
+                                            <a href="roller.html">катки</a>
+                                        </li>
+                                        <!-- <li role="separator" class="divider" style="background-color: rgb(3, 3, 3)"></li> -->
+                                        <li>
+                                            <a href="truckcrane.html">автокраны</a>
+                                        </li>
+                                        <!-- <li role="separator" class="divider" style="background-color: rgb(3, 3, 3)"></li> -->
+                                        <li>
+                                            <a href="bulldozer.html">бульдозеры</a>
+                                        </li>
+                                        <!-- <li role="separator" class="divider" style="background-color: rgb(3, 3, 3)"></li> -->
+                                        <li>
+                                            <a href="hydraulic-hammers.html">гидромолоты</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                        <i class=""></i>Спецтехника Б/У <span class="caret"></span>
+                                    </a>
+                                    <ul class="dropdown-menu" style="background-color: #FCDF70">
+                                        <li>
+                                            <a href="hochu-kupit.html">хочу купить</a>
+                                        </li>
+                                        <!-- <li role="separator" class="divider"></li> -->
+                                        <li>
+                                            <a href="hochu-prodat.html">хочу продать</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                        <i class=""></i>Расрочка и лизинг<span class="caret"></span>
+                                    </a>
+                                    <ul class="dropdown-menu" style="background-color: #FCDF70">
+                                        <li>
+                                            <a href="#">расрочка</a>
+                                        </li>
+                                        <!-- <li role="separator" class="divider" style="background-color: rgb(3, 3, 3)"></li> -->
+                                        <li>
+                                            <a href="#">лизинг</a>
+                                        </li>
+                                        <!-- <li role="separator" class="divider" style="background-color: rgb(3, 3, 3)"></li> -->
+                                        <li>
+                                            <a href="#">Гос программы</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                        <i class=""></i>Сервис<span class="caret"></span>
+                                    </a>
+                                    <ul class="dropdown-menu" style="background-color: #FCDF70">
+                                        <li>
+                                            <a href="service.html">cервис</a>
+                                        </li>
+                                        <!-- <li role="separator" class="divider" style="background-color: rgb(3, 3, 3)"></li> -->
+                                        <li>
+                                            <a href="#">запчасти</a>
+                                        </li>
+                                        <!-- <li role="separator" class="divider" style="background-color: rgb(3, 3, 3)"></li> -->
+                                        <li>
+                                            <a href="#">гарантия</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class=""></i>Дилерская сеть
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <a href="contact.html">
+                                        <i class=""></i>Контакты
+                                    </a>
+                                </li>
+                                <ul class="nav-header pull-right">
+                                    <li class="header-content">
+                                        <span class="h4 font-w600 sidebar-mini-hide text-primary-dark">8 (707) 202 4001</span>
+                                    </li>
+                                    <li >
+                                        <a class="text-primary-darker" href="https://www.facebook.com/sdlgkazakh/" target="_blank">
+                                        <i class="fa fa-facebook-square fa-2x"> </i>
+                                        </a>
+                                    </li>
+                                    <li  >
+                                        <a class="text-primary-darker" href="https://www.instagram.com/Sdlg.officialkz/" target="_blank">
+                                        <i class="fa fa-instagram fa-2x"> </i>
+                                        </a>
+                                    </li>
+                                    <!-- <li  >
+                                            <a class="text-success" href="https://api.whatsapp.com/send?phone=77072024001" target="_blank">
+                                            <i class="fa fa-whatsapp fa-2x"> </i>
+                                            </a>
+                                    </li> -->
+                                </ul>
+                        </ul>
+                        
+                    
+                    </div>
                 </div>
-                
             </header>
             <!-- END Header -->
 
             <!-- Main Container -->
             <main id="main-container">
-                <!-- Sub Header -->
-                <div id="menu" class="bg-gray-lighter visible-xs">
-                    <div class="content-mini content-boxed">
-                        <button class="btn btn-block btn-default visible-xs push" data-toggle="collapse" data-target="#sub-header-nav">
-                            <i class="fa fa-navicon push-5-r"></i>Меню
-                        </button>
-                    </div>
-                </div>
-                <div class="bg-primary-lighter collapse navbar-collapse remove-padding" id="sub-header-nav">
-                    <div class="content-mini content-boxed">
-                        <ul class="nav nav-pills nav-sub-header push">
-            
-                        <li>
-                                <a href="/">
-                                    <i class="fa fa-flag push-5-r"></i>Компания
-                                </a>
-                            </li>
-                            <li>
-                                <a href="product.html">
-                                    <i class="fa fa-train push-5-r"></i>Продукция
-                                </a>
-                            </li>
-                            <li class="dropdown">
-                                <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                                    <i class="fa fa-truck push-5-r"></i>Спецтехника Б/У <span class="caret"></span>
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li>
-                                        <a href="hochu-kupit.html">Хочу купить</a>
-                                    </li>
-                                    <li role="separator" class="divider"></li>
-                                    <li>
-                                        <a href="hochu-prodat.html">Хочу продать</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="service.html">
-                                    <i class="glyphicon glyphicon-cog push-5-r"></i>Сервис
-                                </a>
-                            </li>
-                            
-                            <li class="active">
-                                <a href="contact.html">
-                                    <i class="fa fa-user push-5-r"></i>Контакты
-                                </a>
-                            </li>
-                            
-                        </ul>
-                    </div>
-                </div>
+               
               
                 <div>
                     <script id="bx24_form_inline" data-skip-moving="true">
